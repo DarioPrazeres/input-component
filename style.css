@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    font-size: 36px;
+}
+.body-project{
+    margin-top: 120px;
+    width: 70%;
+    height: 1000px;
+    border: solid 1px red;
+}
+/*--------------Section About Input ----------------*/
+.input-way{
+    
+}
+/*-----------------Input Style ----------------*/
+
+/*-----------Footer --------------*/
+footer {
+    margin-top: 50px;
+  }
+  footer p {
+    text-align: center;
+    color: rgb(144, 142, 142);
+    font-size: 16px;
+  }
+  
+  footer a {
+    color: rgb(103, 102, 102);
+  }
