@@ -6,19 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Input Component</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <section class="body-project">
         <h1>Inputs</h1>
         <section class="input-way">
             <div class="input-normal">
-                <pre>&ltInput /&gt</pre>
+                <p><pre>&ltInput /&gt</pre></p>
+                <div class="form-input">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Placeholder">
+                </div>
             </div>
             <div class="input-hover">
-                
+                <p>&:hover</p>
+                <div class="form-input">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Placeholder" hover>
+                </div>
             </div>
             <div class="input-focus">
-                
+                <p>&:focus</p>
+                <div class="form-input">
+                    <label for="name">Label</label>
+                    <input type="text" name="name" autofocus class="text-input" placeholder="Placeholder">
+                </div>
+            </div>
+        </section>
+        <section class="input-way-error">
+            <div class="input-normal">
+                <p><pre>&ltInput error /&gt</pre></p>
+                <div class="form-input">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Placeholder">
+                </div>
+            </div>
+            <div class="input-hover">
+                <p>&:hover</p>
+                <div class="form-input">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Placeholder" hover>
+                </div>
+            </div>
+            <div class="input-focus">
+                <p>&:focus</p>
+                <div class="form-input">
+                    <label for="name">Label</label>
+                    <input type="text" name="name" autofocus class="text-input" placeholder="Placeholder">
+                </div>
             </div>
         </section>
     </section>
