@@ -9,10 +9,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  color: #828282;
 }
 
 h1 {
   font-size: 36px;
+  color: #333333;
 }
 p, label{
   margin: 4px 0px 4px 0px;
@@ -23,7 +25,19 @@ p, label{
   height: 1000px;
   border: solid 1px red;
 }
-
+.error-lab{
+  color: #d32f2f;
+}
+.text-input-error{
+  border: none;
+  outline: none;
+  outline: 1px solid #d32f2f;
+}
+.text-input-error:focus{
+  border: none;
+  outline: none;
+  outline: 1px solid #d32f2f;
+}
 /*--------------Section About Input ----------------*/
 .input-way,
 .input-way-error {
@@ -38,24 +52,28 @@ p, label{
   flex-direction: column;
 }
 
-.form-input input {
+.form-input input,
+.form-input-error input{
   width: 200px;
   height: 56px;
   padding: 4px;
   font-size: 16px;
   font-weight: 500;
   border-radius: 8px;
-  border: solid 1px #828282;
   color: #828282;
 }
-
+.form-input input{
+  border: solid 1px #828282;
+}
 .form-input input:focus {
   border: none;
   outline: none;
   outline: solid 1px #2962FF;
 }
 
-.form-input input:hover {
+.form-input input:hover,
+.form-input-error input:hover,
+.form-input-error-hover  input{
   border: none;
   outline: none;
   border: solid 1px #333333;
@@ -66,9 +84,17 @@ p, label{
   outline: none;
   border: solid 1px #333333;
 }
-
-/*-----------------Input Style ----------------*/
-
+.help{
+  border: solid 1px #d32f2f;
+}
+/*-----------------Input Error Style ----------------*/
+.form-input-error input{
+  border: none;
+  outline: none;
+}
+.form-input-error input{
+  border: solid 1px #d32f2f;
+}
 /*-----------Footer --------------*/
 footer {
   margin-top: 50px;

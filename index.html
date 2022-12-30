@@ -37,23 +37,50 @@
         <section class="input-way-error">
             <div class="input-normal">
                 <p><pre>&ltInput error /&gt</pre></p>
-                <div class="form-input">
-                    <label for="">Label</label>
+                <div class="form-input-error">
+                    <label class="error-lab" for="">Label</label>
                     <input type="text" placeholder="Placeholder">
                 </div>
             </div>
             <div class="input-hover">
                 <p>&:hover</p>
-                <div class="form-input">
+                <div class="form-input-error form-input-error-hover">
                     <label for="">Label</label>
                     <input type="text" placeholder="Placeholder" hover>
                 </div>
             </div>
             <div class="input-focus">
                 <p>&:focus</p>
+                <div class="form-input-error">
+                    <label class="error-lab" for="name">Label</label>
+                    <input type="text" name="name" autofocus class="text-input-error" placeholder="Placeholder">
+                </div>
+            </div>
+        </section>
+        <section class="input-way-error">
+            <div class="input-normal">
+                <p><pre>&ltInput error /&gt</pre></p>
                 <div class="form-input">
-                    <label for="name">Label</label>
-                    <input type="text" name="name" autofocus class="text-input" placeholder="Placeholder">
+                    <label for="">Label</label>
+                    <input disabled type="text" placeholder="Placeholder">
+                </div>
+            </div>
+        </section>
+        <section class="input-way help">
+            <div class="input-normal">
+                <p><pre>&ltInput helpText="Some interesting text" /&gt</pre></p>
+                <div class="form-input">
+                    <label for="">Label</label>
+                    <input type="text" placeholder="Placeholder">
+                    <p class="p-aux">Some interesting text</p>
+                </div>
+            </div>
+            <div class="input-hover">
+                <p><pre>&ltInput helpText="Some interesting text" /&gt</pre></p>
+                <div class="form-input-error">
+                    <label class="error-lab" for="">Label</label>
+                    <input type="text" placeholder="Placeholder" hover>
+                    <p class="error-lab">Some interesting text</p>
                 </div>
             </div>
         </section>
