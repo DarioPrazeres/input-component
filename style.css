@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,6 @@ p, label{
 .body-project {
   margin-top: 120px;
   width: 70%;
-  height: 1000px;
 }
 .error-lab{
   color: #d32f2f;
@@ -65,6 +64,7 @@ p, label{
   border: solid 1px #828282;
 }
 .form-input input:focus {
+  color: #333333;
   border: none;
   outline: none;
   outline: solid 1px #2962FF;
@@ -119,6 +119,25 @@ p, label{
 .form-input-icon input:focus{
   outline: none;
   border: none;
+}
+/*-----------Stle of Small input */
+.input-sm input{
+  height: 40px;
+  padding: 5px;
+}
+.input-full input{
+  width: 80%;
+}
+.row-4 textarea{
+  font-size: 16px;
+  border-radius: 8px;
+  padding: 5px;
+  border: solid 1px #828282;
+}
+.row-4 textarea:focus{
+  outline: none;
+  border: none;
+  border: 1px solid #2962FF;
 }
 /*-----------Footer --------------*/
 footer {
